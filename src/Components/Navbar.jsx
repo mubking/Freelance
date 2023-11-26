@@ -16,7 +16,7 @@ function Navbar() {
   };
   return (
     <nav>
-      <div className="bg-[white] h-[15vh] z-[400] sticky top-0 flex flex-row  justify-between w-full items-center  p-10">
+      <div className="bg-[white] h-[15vh] z-[1000] sticky top-0 flex flex-row  justify-between  items-center  p-5">
         <div className="logo h-20  text-3xl mt-10 ">
           <h2 className=" z-[1000] text-[black]">
             Freelance<span className="text-[#3BD442]">HQ</span>
@@ -122,7 +122,7 @@ function Navbar() {
               className=" cursor-pointer"
               duration={500}
             >
-              <li>Services</li>
+              <li>How it works</li>
             </Link>
             <Link
               activeClass="active"
@@ -133,7 +133,7 @@ function Navbar() {
               className=" cursor-pointer"
               duration={500}
             >
-              <li>Contact</li>
+              <li>Pricing</li>
             </Link>
             <Link
               activeClass="active"
@@ -144,9 +144,9 @@ function Navbar() {
               className=" cursor-pointer"
               duration={500}
             >
-              <a href="/mycv" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                cv
-              </a>
+            <button class="inline-flex text-white bg-[#3BD442] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <a href="https://my-cv-cpx3.vercel.app/">Login</a>
+              </button>
             </Link>
           </ul>
           {/* <div className="social grid grid-cols-3 md:flex md:flex-row flex-col gap-3">
