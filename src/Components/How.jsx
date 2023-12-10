@@ -4,13 +4,10 @@ function How() {
   return (
     <div className=" min-h-screen w-full p-10 bg-[#A4F1A7]">
       <h1 className="text-center text-4xl">How FreelanceHQ Works?</h1>
-      <div className="flex items-center flex-col md:gap-10 gap-5 lg:gap-20 container md:flex-row">
+      <div className="flex items-center flex-col  gap-5 lg:gap-20 container lg:flex-row">
         <div className="flex  flex-col  mt-10 justify-center items-center ">
           <div className="">
-            <div
-              style={{ border: "3px solid black" }}
-              className="flex capitalize flex-row p-5 items-center gap-1"
-            >
+            <div style={{ border: "3px solid black" }} className="flex capitalize flex-row p-5 items-center gap-1">
               <h1 className="text-3xl text-white">1.</h1>
               <h2 className="text-2xl">Create Account</h2>
             </div>

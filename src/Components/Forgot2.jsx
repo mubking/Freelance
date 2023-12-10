@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../Components/logoimg/Logo.png'
+import logo from '../Images/Logo (2).png'
 
 function Forgot2() {
   return (

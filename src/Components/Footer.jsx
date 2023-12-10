@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div className='min-h-screen bg-black text-white w-full p-10 flex flex-col justify-center '>
-        <div className='flex flex-col  gap-10 md:flex-row w-full'>
+        <div className='flex flex-col  gap-10 lg:flex-row w-full'>
             <div className='w-full'>
                 <h2 className="text-[#3CD442] text-3xl">
                 Freelance<span className="text-[#ffff]">HQ</span>
@@ -13,12 +13,12 @@ function Footer() {
             <div className='w-full'>
                 <h1 className='text-[#3CD442] text-3xl'>Quick links</h1>
                 <ul className='mt-5'>
-                    <li> <a href=""> About Us </a></li>
-                    <li> <a href=""> Terms and conditions </a></li>
-                    <li> <a href=""> How It Works </a></li>
-                    <li> <a href=""> Sign Up </a></li>
-                    <li> <a href=""> Sign In </a></li>
-                    <li> <a href=""> Pricing </a></li>
+                    <li> <a href="/a"> About Us </a></li>
+                    <li> <a href="/a"> Terms and conditions </a></li>
+                    <li> <a href="/s"> How It Works </a></li>
+                    <li> <a href="/c"> Sign Up </a></li>
+                    <li> <a href="/c"> Sign In </a></li>
+                    <li> <a href="Z"> Pricing </a></li>
                 </ul>
 
             </div>
