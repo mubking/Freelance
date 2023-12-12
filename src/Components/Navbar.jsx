@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 // import Link from 'next/link';
-import { Link } from "react-scroll";
 // import { TiSocialFacebookCircular } from "react-icons/ti";
 // import { TiSocialTwitterCircular } from "react-icons/ti";
 // import { TiSocialInstagram } from "react-icons/ti";
@@ -24,54 +24,30 @@ function Navbar() {
         </div>
         <div className="lg:block hidden">
           <ul className=" flex flex-row  gap-8 items-center  ">
-            <Link
-              activeClass="active"
-              to="hero"
-              spy={true}
-              smooth={true}
-              offset={-70}
+            <span
               className=" cursor-pointer"
-              duration={500}
             >
               <li>Home</li>
-            </Link>
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
+            </span>
+            <span
               className=" cursor-pointer"
-              duration={500}
             >
               <li>About</li>
-            </Link>
-            <Link
-              activeClass="active"
-              to="service"
-              spy={true}
-              smooth={true}
-              offset={-70}
+            </span>
+            <span
               className=" cursor-pointer"
-              duration={500}
             >
               <li>How it works</li>
-            </Link>
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-70}
+            </span>
+            <span
               className=" cursor-pointer"
-              duration={500}
             >
               <li>Pricing</li>
-            </Link>
+            </span>
           
-              <button class="inline-flex text-white bg-[#3BD442] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                <a href="https://my-cv-cpx3.vercel.app/">Login</a>
-              </button>
+              <Link to={"/login"} class="inline-flex text-white bg-[#3BD442] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              Login
+              </Link>
           </ul>
         </div>
        
@@ -88,11 +64,10 @@ function Navbar() {
             <Link activeClass="active" to="about" > <li>About</li></Link>
             <Link activeClass="active" to="service" ><li>How it works</li></Link>
             <Link activeClass="active" to="contact" spy={true}  smooth={true} offset={-70} className=" cursor-pointer" duration={500}><li>Pricing</li></Link>
-            <Link activeClass="active" to="cv" spy={true} smooth={true} offset={-70} className=" cursor-pointer"  duration={500}>
-            <button class="inline-flex text-white bg-[#3BD442] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                <a href="https://my-cv-cpx3.vercel.app/">Login</a>
-              </button>
-            </Link>
+           
+            <Link to={"/login"} class="inline-flex text-white bg-[#3BD442] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              Login
+              </Link>
           </ul>
          
         </div>
